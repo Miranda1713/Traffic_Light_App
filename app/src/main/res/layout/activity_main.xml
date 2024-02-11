@@ -19,7 +19,7 @@
         app:layout_constraintTop_toTopOf="parent" />
 
     <ImageView
-        android:id="@+id/imageView2"
+        android:id="@+id/yellowlight"
         android:layout_width="132sp"
         android:layout_height="191dp"
         android:layout_marginStart="149dp"
@@ -31,7 +31,7 @@
         app:srcCompat="@drawable/yellowlight" />
 
     <ImageView
-        android:id="@+id/imageView3"
+        android:id="@+id/greenlight"
         android:layout_width="132dp"
         android:layout_height="191dp"
         android:layout_marginStart="149dp"
@@ -43,7 +43,7 @@
         app:srcCompat="@drawable/greenlight" />
 
     <ImageView
-        android:id="@+id/imageView4"
+        android:id="@+id/redlight"
         android:layout_width="132dp"
         android:layout_height="191dp"
         android:layout_marginStart="149dp"
