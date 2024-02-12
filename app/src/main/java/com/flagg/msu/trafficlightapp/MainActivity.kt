@@ -10,7 +10,6 @@ import com.flagg.msu.trafficlightapp.databinding.ActivityMainBinding
 class MainActivity : AppCompatActivity() {
 
     private lateinit var binding: ActivityMainBinding
-    private var visibility = 0
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
@@ -18,15 +17,10 @@ class MainActivity : AppCompatActivity() {
         setContentView(binding.root)
 
         binding.button.setOnClickListener {
-            val isStop = true
-            val isGo = false
-            val isWait = false
-            if(isStop == true) {
-
-            } else if(isGo == true) {
-
-            } else {
-
+            if(isStop) {
+                public void setBackgroundColor ("red")
+                binding.button.text = "STOP"
+                redlight.visibility
             }
         }
 
